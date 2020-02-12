@@ -1,0 +1,29 @@
+{
+  "name": "es6_play",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "watch": {
+    "what": {
+      "extensions":"js,jsx,ts",
+      "patterns": ["src","test"]
+    }
+  },
+  "scripts": {
+    "dev": "npm-watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && webpack src/index.js --output dist/bundle.js",
+    "build-prod": "webpack src/index.js --output distprod/bundle.js -p",
+    "watch" : "npm-watch test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "npm-watch": "^0.6.0",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "pixi.js": "^5.2.1"
+  }
+}
