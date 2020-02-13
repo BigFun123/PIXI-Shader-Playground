@@ -1,2 +1,2 @@
-# PIXI Shader Playground
+# PIXI 5 Shader Playground
  

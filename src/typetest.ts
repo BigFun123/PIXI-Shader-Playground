@@ -3,7 +3,7 @@ class Tester {
 
     constructor(t:string) {
         this.bob = "hello " + t;
-        console.log(this.bob);   
+        console.log(this.bob); 
     }
 }
 
